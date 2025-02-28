@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quadrinho Caprichado</title>
+  <link rel="stylesheet" href="style.css"> <!-- Importando o CSS -->
+</head>
+<body>
+
+  <h1>Quadrinho Caprichado</h1>
+
+  <div class="container">
+    <div class="page-title" id="pageTitle">Página 1</div>
+    <canvas id="canvas" width="800" height="600"></canvas>
+
+    <div class="navigation">
+      <button id="prevPageBtn" onclick="changePage(-1)">Anterior</button>
+      <button id="nextPageBtn" onclick="changePage(1)">Próxima</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Importando o JavaScript -->
+</body>
+</html>
